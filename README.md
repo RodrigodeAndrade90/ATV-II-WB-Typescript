@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+<br id="inicio">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Atividade II - Typescript</h1>
+ 
 
-## Available Scripts
+<span id="sobre">
 
-In the project directory, you can run:
+### :mag_right: Sobre a Atividade II:
+<p>Atividade desenvolvida pela matéria Técnica de Programação I, com o objetivo do desenvolvimento e atualizar o sistema com uma GUI moderna e que funcione tanto em navegadores comuns quanto em navegadores de dispositivos móveis, como celulares e/ou tablets </p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a href="#inicio">[Voltar ao início]</a>
 
-### `npm test`
+<span id="equipe">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :busts_in_silhouette: Equipe:
+ Nome | GitHub & LinkedIn
+-------|------|-------------------
 
-### `npm run build`
+Gizeli Martins Fonseca | [<img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=54C5CE&color=292A2D"/>](https://github.com/gizelifonseca)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Rikio Anzai | [<img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=54C5CE&color=292A2D"/>](https://github.com/rikioanzai) [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=54C5CE&color=292A2D" />](https://www.linkedin.com/in/rikio-anzai-053ba921b/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Rodrigo de Andrade | [<img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=54C5CE&color=292A2D"/>](https://github.com/RodrigodeAndrade90) [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=54C5CE&color=292A2D" />](https://www.linkedin.com/in/rodrigo-de-andrade-a34605104/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Instituição: Fatec São José dos Campos - Prof. Jessen Vidal
+> 
+> Curso: Desenvolvimento de Software Multiplataforma/2º Semestre
+ 
+<a href="#inicio">[Voltar ao início]</a>
