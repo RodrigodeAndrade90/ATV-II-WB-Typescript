@@ -1,8 +1,12 @@
 import { Component } from "react";
-import Home from "./home";
+import FormularioCadastroCliente from "./Formulario/formularioCadastro";
+import Home from "./Home/home";
+import ListaCliente from "./Cliente/listaCliente";
 import BarraNavegacao from "./Navegacao/barraNavegacao";
-import FormularioCadastroCliente from "./formularioCadastroCliente";
-import ListaCliente from "./listaCliente";
+import ListaProduto from "./Produtos/listaProduto";
+import ListaServico from "./Servicos/listaServico";
+import Top from "./Top/top";
+
 
 type state = {
     tela: string
@@ -12,7 +16,7 @@ export default class Roteador extends Component<{}, state> {
     constructor(props: {} | Readonly<{}>) {
         super(props)
         this.state = {
-            tela: 'Clientes'
+            tela: 'Home'
         }
         this.selecionarView = this.selecionarView.bind(this)
     }
@@ -26,7 +30,7 @@ export default class Roteador extends Component<{}, state> {
     }
 
     render() {
-        let barraNavegacao = <BarraNavegacao seletorView={this.selecionarView} tema="pink accent-4" botoes={['Home','Clientes', 'Cadastros']} />
+        let barraNavegacao = <BarraNavegacao seletorView={this.selecionarView} tema="pink accent-4" botoes={['Home','Clientes', 'Produtos', 'Serviços' ,'Cadastros', 'Top10']} />
         if (this.state.tela === 'Home') {
             return (
                 <>
@@ -41,13 +45,35 @@ export default class Roteador extends Component<{}, state> {
                     <ListaCliente tema="purple lighten-4" />
                 </>
             )
+        } if (this.state.tela === 'Produtos') {
+            return (
+                <>
+                    {barraNavegacao}
+                    <ListaProduto tema="purple lighten-4" />
+                </>
+            )
+        } if (this.state.tela === 'Serviços') {
+            return (
+                <>
+                    {barraNavegacao}
+                    <ListaServico tema="purple lighten-4" />
+                </>
+            )
+
+        } if (this.state.tela === 'Cadastros') {
+            return (
+                <>
+                    {barraNavegacao}
+                    <FormularioCadastroCliente tema="purple lighten-4" />
+                </>
+            )
         }
         
         else {
             return (
                 <>
                     {barraNavegacao}
-                    <FormularioCadastroCliente tema="purple lighten-4" />
+                    <Top tema="purple lighten-4" />
                 </>
             )
         }

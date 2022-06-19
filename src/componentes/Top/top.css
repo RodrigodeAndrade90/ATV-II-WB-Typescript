@@ -1,0 +1,35 @@
+
+.row h1{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+ }
+
+
+ .top h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+ }
+
+.collections {
+    width:80%;
+    margin: 0 auto;
+    margin-top: 25px;
+ }
+
+ .collection-item{
+    text-align: center;
+ }
+
+ .collections h1{
+   font-size: 70px;
+   text-align: center;
+   font-weight: bold;
+}
+
+p label {
+   font-weight: bold;
+   font-size: 16px !important;
+   color: #414042;
+ }

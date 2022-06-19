@@ -1,0 +1,16 @@
+html,
+body {
+    height: 100%;
+}
+html {
+    margin: auto;
+}
+body {
+    vertical-align: middle;
+    background: #fce4ec;
+}
+
+#login-page {
+   width:80%;
+   margin-top: 25px;
+}
