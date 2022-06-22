@@ -1,11 +1,17 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Component } from "react";
+import {Navigate} from "react-router-dom"
 import 'materialize-css/dist/css/materialize.min.css'
 import M from 'materialize-css'
 
+type obj = {
+    nome?: string;
+    rota?: any;
+}
+
 type props = {
     tema: string,
-    botoes: string[],
+    botoes: obj[],
     seletorView: Function
 }
 
@@ -26,8 +32,8 @@ export default class BarraNavegacao extends Component<props> {
         if (this.props.botoes.length <= 0) {
             return <></>
         } else {
-            let lista = this.props.botoes.map(valor =>
-                <li key={valor}><a onClick={(e) => this.props.seletorView(valor, e)}>{valor}</a></li>
+            let lista = this.props.botoes.map(botao =>
+                <li><a href={botao.rota}>{botao.nome}</a></li>
             )
             return lista
         }

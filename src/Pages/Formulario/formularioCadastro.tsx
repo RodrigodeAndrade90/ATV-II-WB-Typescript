@@ -10,7 +10,7 @@ type props = {
     tema: string
 }
 
-export default class FormularioCadastroCliente extends Component<props> {
+export default class FormularioCadastro extends Component<props> {
 
     componentDidMount() {
         console.log(M);
